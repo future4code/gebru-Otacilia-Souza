@@ -27,8 +27,14 @@ return arrayPares;
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
-}
+    const arrayPares = array.filter((numeroPar) => {
+        return numeroPar % 2 === 0;
+      });
+      const paresElevadosA2 = arrayPares.map((numerosElevados) => {
+        return Math.pow(numerosElevados, 2);
+      });
+      return paresElevadosA2;
+    }
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
