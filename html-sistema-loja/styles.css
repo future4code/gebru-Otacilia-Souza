@@ -1,0 +1,51 @@
+body {
+    font-family: 'color';
+    margin: 0rem;
+
+
+}
+
+th, td {
+   
+    padding: 48px 48px 0px;
+    text-align: center;
+}
+
+h3, h1, .form-page, .nav-link {
+    padding-left: 20px;
+}
+
+/*** Header Section ***/
+.header, .navbar, #filtro, .footer {
+    color: purple;
+}
+
+.header{
+    font-size: 25px;
+    background-color:  yellow; 
+    padding: 16px;
+}
+
+.brand, .title {
+    display:ruby-text ;
+}
+
+
+/*** Navbar Section ***/
+
+.nav > span {
+    font-size: 50px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.nav-link, #filtro {
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+
+.social-icon {
+    margin-left: 0px;
+    padding: 0px 132px 0px;
+}
