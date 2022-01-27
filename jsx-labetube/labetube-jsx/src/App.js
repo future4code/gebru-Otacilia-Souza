@@ -4,7 +4,7 @@ import './App.css';
 function App() {
 
   function reproduzVideo(){
-    alert("o video esta sendo reproduzido")
+    alert("o video esta sendo reproduzido ")
   }
   const titulo = "Titulo do video";
   return (
