@@ -30,6 +30,7 @@ const StyledUsername = styled.div `
       background-color: #000000;
     }
   }
+  
 `
 
 export { MainContainer, StyledUsername }
