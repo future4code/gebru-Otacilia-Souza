@@ -6,6 +6,7 @@ margin: 2% 0 0 10%;
       margin: 20px 0;
       color: #000000;
   }
+  
 `
 
 const StyledUsername = styled.div `
