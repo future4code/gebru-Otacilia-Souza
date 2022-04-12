@@ -6,23 +6,31 @@ Função nada mais é que um bloco de código que pode ser invocado por meio de 
 
 para que a mesma possa funcionar precisa-se declarar a função por meio de uma "function" podendo ser declarado inicialmente ou não os ¹parâmetros desejados e dentro dela a operação a ser realizada ou seja o bloco de código que irá funcionar e que será invocado em seguida pelo nome passado no inicio seguido dos ²argumentos, que em seguida trara um retorno, este valor de retorno pode ser guardado dentro de uma variável, assim como também pode ser visualizada através do console.log. 
 
-exemplo 1: guardado dentro da variavel:                                                                                        exemplo 2: evocado no console.log
+exemplo 1: guardado dentro da variavel:                                                                              
 
-function calculaArea (altura, largura){                                                                                                  function calculaArea (altura, largura){            
+function calculaArea (altura, largura){                                                                                                     
 
-const area = altura * largura                                                                							 						const area = altura * largura
+const area = altura * largura                                                                							 					
 
-return area																																				     return area	
+return area																																				    	
 
   }	                                                                                                                                                                	}
 
-​																																							
-
-const areaCalculada = calculoArea(2,3)                                                                                                    console.log(area)                                   
+​    exemplo 2:   evocado no console.log					
 
 
 
+ function calculaArea (altura, largura){            
 
+const areaCalculada = calculoArea(2,3)   
+
+​	const area =  altura * largura           
+
+   return area                                                                                                          
+
+​	}
+
+  console.log(area)      
 
 
 
@@ -34,15 +42,29 @@ Existem sintaxes diferentes para declaração de uma função a baixo veremos as
 
 
 
-*Declaração Simples*                                                                                              *Declaração com arow function
+*Declaração Simples*                                                                                             
 
-let somaNumeros (num1. num2) {                                                              let somaNumeros  = (num1. num2) =>{
+let somaNumeros (num1. num2) {                                                              
 
-return num1 + num2                                                                                           return num1 + num2
+return num1 + num2                                                                                           
 
-}                                                                                                                               }
+}                                                                                                                              
 
-const soma = somaNumeros( 1 + 2)                                                                const soma = somaNumeros( 1 + 2)
+const soma = somaNumeros( 1 + 2)                                                              
+
+
+
+
+
+   *Declaração com arow function
+
+ let somaNumeros  = (num1. num2) =>{
+
+return num1 + num2
+
+  }
+
+ const soma = somaNumeros( 1 + 2)
 
 
 
@@ -108,33 +130,67 @@ Função nada mais é que um bloco de código que pode ser invocado por meio de 
 
 para que a mesma possa funcionar precisa-se declarar a função por meio de uma "function" podendo ser declarado inicialmente ou não os ¹parâmetros desejados e dentro dela a operação a ser realizada ous eja o bloco de código que irá funcionar e que será invocado em seguida pelo nome passado no inicio segido dos ²argumentos, que em seguida trara um retorno, este valor de retorno pode ser guardado dentro de uma variável, assim como também pode ser visualizada por através do console.log. 
 
-exemplo 1: guardado dentro da variavel:                                                                                        exemplo 2: evocado no console.log
+exemplo 1: guardado dentro da variavel:                                                                            
 
-function calculaArea (altura, largura){                                                                                                  function calculaArea (altura, largura){            
+function calculaArea (altura, largura){                                                                                                
 
-const area = altura * largura                                                                							 						const area = altura * largura
+const area = altura * largura                                                                							 						
 
-return area																																				     return area	
+return area																																				
 
-  }	                                                                                                                                                                	}
+  }	                                                                                                                                                               
 
 ​																																							
 
-const areaCalculada = calculoArea(2,3)                                                                                                    console.log(area)                                   
+const areaCalculada = calculoArea(2,3)    
+
+ 
+
+exemplo 2: evocado no console.log
+
+  function calculaArea (altura, largura){       
+
+const area = altura * largura  
+
+ return area	
+
+ console.log(area)        
+
+
+
+​                           
 
 #Tipos de declarações de funções
 
 Existem sintaxes diferentes para declaração de uma função a baixo veremos as duas mais utilizadas
 
-Declaração Simples                                                                                              *Declaração com arow function
+Declaração Simples                                                                                           
 
-let somaNumeros (num1. num2) {                                                              let somaNumeros  = (num1. num2) =>{
+let somaNumeros (num1. num2) {                                                             
 
-return num1 + num2                                                                                           return num1 + num2
+return num1 + num2                                                                                          
 
-}                                                                                                                               }
+}                                                                                                                           
 
-const soma = somaNumeros( 1 + 2)                                                                const soma = somaNumeros( 1 + 2)
+const soma = somaNumeros( 1 + 2)            
+
+
+
+
+
+​    *Declaração com arow function
+
+ let somaNumeros  = (num1. num2) =>{
+
+   return num1 + num2
+
+   }
+
+ const soma = somaNumeros( 1 + 2)
+
+
+
+
 
 Obs: ¹Parametros são valores de entrada, declarados na função.
 
@@ -159,6 +215,8 @@ Exemplo: nomeDoObjeto.nomeDaPropriedade
                                         lapis.cor
 
   
+
+
 
 
 
@@ -206,21 +264,37 @@ Toda declaração de objeto pode ser mutavel e para isso utiliza-se o **spread o
 
 
 
-Exemplo:
+Exemplo 1:
 
-const  pessoa = {                                                                                  const  novaPessoa= {                            const  pessoa = {         
+const  pessoa = {                                                                                     
 
-nome: "otacilia";                                                                                   ... pessoa                                                 nome: [otacilia] = "Flavia"  
+nome: "otacilia";                                                                                 
 
-idade: 34;                                                                                               nome: "Taciana";                                   idade: [34] = 20
+idade: 34;                                                                                           
 
-email: otacilias@ghmail.com                                                           Sobrenome: " tarara"
+email: otacilias@ghmail.com                                                          
 
 }
 
+Exemplo 2:
+
+const  novaPessoa= {     
+
+​    ... pessoa   
+
+  nome: "Taciana";    
+
+   Sobrenome: " tarara"
 
 
 
+Exemplo 3:
+
+const  pessoa = {         
+
+nome: [otacilia] = "Flavia"  
+
+ idade: [34] = 20
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -344,17 +418,23 @@ O filter ( ) usa estruturas de repetição para encontrar um elemento especifico
 
 
 
-exemplo 1:                                                                                                                                exemplo 2:
+exemplo 1:                                                                                                                              
 
-var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];                                                                          var estados = ["São Paulo", "Minas Gerais", "Rio de Janeiro", "Rio                          
+var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];                                                                                 
 
-var retorno = numeros.filter(pares => (pares %2)== 0);                                                Grande do Norte", "Santa Catarina", "Acre"];  Grande do Norte", "Santa 
+var retorno = numeros.filter(pares => (pares %2)== 0);                                            
 
-console.log(retorno);                                                                                                          Catarina", "Acre"]; estados.filter( estadosComS  =>                   
+   console.log(retorno);        
 
-​                                                                                                                                                (estadosComS.charAt(0) == "S"));                                                                                      
+​                                                                                                                  
 
-​                                                                                                                                                  console.log(resultado);
+​    exemplo 2:                                                                                                                                                                                                                            
+
+ var estados = ["São Paulo", "Minas Gerais", "Rio de Janeiro", "Rio    Grande do Norte", "Santa Catarina", "Acre"]; 
+
+var retorno= estados.filter( estadosComS  =>     (estadosComS.charAt(0) == "S"));    
+
+​    console.log(resultado);                                                                                                                                            
 
 
 
