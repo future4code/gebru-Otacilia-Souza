@@ -220,6 +220,7 @@ Exemplo: nomeDoObjeto.nomeDaPropriedade
 
 
 
+
 Obs sintaxe:O nome do objeto deve ser definida em uma variavel .
 
           O nome da propriedade difere entre maiuscula e minuscula, ou seja, deve ser evocada sempre da mesma forma que foi declarada.
@@ -525,3 +526,4 @@ no exemplo descrito o array tera mais um elemento que sera inserido na segunda p
 
 console.log: [ "banana", "uva", "melancia","melão", "Laranja'', "Limão"]
 
+git s
