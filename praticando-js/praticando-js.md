@@ -1,3 +1,6 @@
+
+
+
 **#*Praticando JavaScript***
 ___
 **#*Exercicio 1***
