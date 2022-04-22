@@ -102,11 +102,13 @@ const cadastro = () => {
     }else{
         alert('O cadastro só é permitido para maiores de 18 anos.');
     }
-
-
+  
+  
     return Object.keys(usuario).map((key) => usuario[key]);
-
-console.log(cadastro());
+  }
+  
+  
+  console.log(cadastro());
 
 // Exercício 4-----------------------------------------------------------------------------------------------
 const login = () => {
