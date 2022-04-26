@@ -26,48 +26,16 @@ console.log(checarDesigualdade(1, 2));
 
 // b-)Compare a igualdade entre a===b
 
-function checarIgualdade(a, b) {
-    //  Sua lógica aqui
-}
-
-// c-)Faça uma função chamada "verificaSeEMaior"
-
-console.log(verificaSeEMaior(321, 2156));
 
 
 // Exercício 2------------------------------------------------------------------------------------
 //Escreva true or false para as comparações abaixo:
-// exemplo 1>2 = false
-// a-) 1==='1'=
-// b-) 1=='1'=
-// c-) 'a'==='b'=
-// d-) 'b'>'a'=
-// e-) 0!==null=
-
 
 // CONDICIONAIS
 
 // Exercício 3------------------------------------------------------------------------------------
 
-const cadastro = () => {
-    const usuario = []
-
-    //  Sua lógica aqui
-
-}
-console.log(cadastro());
-
-// Exercício 4-----------------------------------------------------------------------------------------------
-
-const login = () => {
-    const login = "labenu"
-    //  Sua lógica aqui
-
-}
-
-console.log(login());
-
-// Exercício 5----------------------------------------------------------------------------------------------------
+io 5----------------------------------------------------------------------------------------------------
 
 const primeiraDose = () => {
 
@@ -82,19 +50,6 @@ console.log(primeiraDose())
 
 // Exercício 6 -------------------------------------------------------------------------------------
 
-const segundaDose = (nomeDoUsuario) => {
-    const usuarios = [
-        { nome: "Artur", imunizacao: "incompleta" },
-        { nome: "Barbara", imunizacao: "incompleta" },
-        { nome: "Carlos", imunizacao: "incompleta" }
-    ]
-
-    //  Sua lógica aqui
-
-
-}
-console.log(segundaDose("Barbara"));
-
 // Exercício 7 --------------------------------------------------------------------------------------
 
 const avisoAosAtrasados = () => {
@@ -102,13 +57,6 @@ const avisoAosAtrasados = () => {
         { nome: "Artur", imunizacao: "incompleta" },
         { nome: "Barbara", imunizacao: "completa" },
         { nome: "Carlos", imunizacao: "incompleta" }
-    ]
-
-    //  Sua lógica aqui
-
-}
-console.log(avisoAosAtrasados());
-
 
 // DESAFIO------------------------------------------------------------------------------------------
 
