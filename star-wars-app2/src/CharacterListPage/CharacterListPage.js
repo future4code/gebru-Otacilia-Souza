@@ -1,4 +1,4 @@
-
+﻿
 
 import React from "react";
 
@@ -9,4 +9,6 @@ const CharacterListPage = () =>{
 </div>
     )
 } 
+
+
 export default CharacterListPage

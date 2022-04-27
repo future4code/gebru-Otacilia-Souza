@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 
 const CharacterDetailPage = () =>{
     return (
@@ -7,4 +7,6 @@ const CharacterDetailPage = () =>{
 </div>
     )
 } 
+
+
 export default CharacterDetailPage

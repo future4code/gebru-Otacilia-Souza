@@ -1,7 +1,6 @@
-import React, {useState} from "react";
+﻿import React, {useState} from "react";
 import CharacterDetailPage from "./CharacterDetailPage/CharacterDetailPage";
 import CharacterListPage from "./CharacterListPage/CharacterListPage";
-
 
 
 
@@ -23,5 +22,6 @@ return (
  </div>
 )
 }
+
 
 export default AppStarWars;
