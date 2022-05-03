@@ -1,17 +1,27 @@
 import React, {useState} from "react";
-import CharacterDetailPage from "./CharacterDetailPage/CharacterDetailPage";
+import CharacterDetailsPage from "./CharacterDetailsPage/CharacterDetailsPage";
 import CharacterListPage from "./CharacterListPage/CharacterListPage";
 
 
 
 
 function AppStarWars() {
-  const [ currentPage, setCurrentPage] = useState("detail")
+  const [ currentPage, setCurrentPage] = useState("list")
+  const [detailsUrl, setDetailsUrl] = useState("")
+
+function goToDetailsPage(url){
+  setCurrentPage("details")
+  setDetailsUrl(url)
+}
+
+function goToListpage(){
+  setCurrentPage("list")
+}
 
 function selectePage () {
-if (currentPage === "details") {
-  return  <CharacterDetailPage/> } 
-else  { return   <CharacterListPage/>}
+if (currentPage === "list") {
+  return  <CharacterListPage goToDetailsPage={goToDetailsPage}/> } 
+else  { return   <CharacterDetailsPage goToListpage={goToListpage} url={detailsUrl}/>}
 
 
 }

@@ -3,7 +3,7 @@ import axios from "axios"
 import { BASE_URL } from "../constants/url";
 import { CharacterCard } from "./styledListaPage";
 
-const CharacterListPage = () =>{
+const CharacterListPage = (props) =>{
  const [CharacterList, setCharacterList] = useState([])
 
     function getCharacterList(){
@@ -18,7 +18,7 @@ useEffect(() => {
 
 const showCharacters = () => {
     return CharacterList.map((Character) => {
-        return <CharacterCard key={Character.url}>{Character.name}</CharacterCard>
+        return <CharacterCard onClick={()=>props.goToDetailsPage(Character.url)}  key={Character.url}>{Character.name}</CharacterCard>
     });
 
 }
