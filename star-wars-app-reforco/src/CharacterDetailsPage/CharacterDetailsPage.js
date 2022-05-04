@@ -7,12 +7,8 @@ const CharacterDetailsPage = (props) => {
 
     useEffect(() => {
         getCharacterDateils()
-    }, [])
-
-    useEffect(() => {
         getPlanetDatails()
-    }, [])
-
+    }, [details.homeworld])
 
     const getCharacterDateils = () => {
         
