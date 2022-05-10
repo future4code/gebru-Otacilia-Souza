@@ -19,4 +19,6 @@ export const getPlanetDatails = (url, saveData) => {
     axios.get(url)
         .then((response) => {saveData(response.data) })
         .catch((error) => console.log("erro", error.message))
+
 }
+

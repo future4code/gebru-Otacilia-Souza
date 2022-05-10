@@ -2,6 +2,9 @@ import React, {useState, useEffect} from "react";
 
 import { CharacterCard } from "./styledListaPage";
 import {getCharacterList} from "../../src/services/request"
+import { FirstTitle,FirstContainer } from "../CharacterListPage/styledListaPage";
+import capa from "../assets/personagens/capa.jpeg";
+
 
 const CharacterListPage = (props) =>{
  const [CharacterList, setCharacterList] = useState([])
@@ -24,8 +27,14 @@ getCharacterList()
 
     return (
 <div>
-   <h5>teste componente ListaPage</h5>
-   {showCharacters()}
+<FirstContainer>
+<FirstTitle>Star Wars  </FirstTitle>
+
+ <img src= {capa}/>
+ <p>List Page</p> 
+{showCharacters()}
+<p></p> 
+   </FirstContainer>
 </div>
     );
 } 

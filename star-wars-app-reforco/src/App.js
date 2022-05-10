@@ -28,7 +28,7 @@ else  { return   <CharacterDetailsPage goToListpage={goToListpage} url={detailsU
 
 return (
   <div>
-    <h1>Star Wars</h1>
+  
    {selectePage ()}
  </div>
 )
