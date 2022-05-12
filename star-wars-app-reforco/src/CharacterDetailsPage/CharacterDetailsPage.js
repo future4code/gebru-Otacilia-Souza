@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getCharacterDateils, getPlanetDatails, getInformDatails} from "../../src/services/request";
 import {FirstTitle2,FirstContainer2, TitleButton2, FirstDetail} from "../CharacterDetailsPage/styledCaracterdetail"
+import nomes from "../assets/personagens/nomes.jpeg";
 
 
 const CharacterDetailsPage = (props) => {
@@ -26,6 +27,7 @@ console.log(planet)
     return (
         <div>
             <FirstContainer2>
+            <img src= {nomes}/>
 
           <FirstTitle2> Detalhes dos personagens</FirstTitle2>
           <FirstDetail>

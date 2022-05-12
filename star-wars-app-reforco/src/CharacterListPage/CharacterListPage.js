@@ -3,7 +3,7 @@ import React, {useState, useEffect} from "react";
 import { CharacterCard } from "./styledListaPage";
 import {getCharacterList} from "../../src/services/request"
 import { FirstTitle,FirstContainer } from "../CharacterListPage/styledListaPage";
-import capa from "../assets/personagens/capa.jpeg";
+import logo2 from "../assets/personagens/logo2.jpg";
 
 
 const CharacterListPage = (props) =>{
@@ -28,9 +28,9 @@ getCharacterList()
     return (
 <div>
 <FirstContainer>
-<FirstTitle>Star Wars  </FirstTitle>
+{/* <FirstTitle>Star Wars  </FirstTitle> */}
 
- <img src= {capa}/>
+ <img src= {logo2}/>
  <p>List Page</p> 
 {showCharacters()}
 <p></p> 

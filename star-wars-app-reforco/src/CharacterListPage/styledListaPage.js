@@ -5,14 +5,11 @@
 import styled from "styled-components"
 
 export const FirstContainer = styled.div`
-align-items: center;
- padding: 4rem 2rem 2rem;
- background: linear-gradient(#663300, #996633, #999966);
- box-shadow: inset 0 0 1em black,0 0 1em black ;
+ background-image:url("https://image.api.playstation.com/vulcan/img/rnd/202105/1714/E5yFMXr7l18fVdXpdSWXp8Yi.png");
 
  img {
   
-    margin-left:40%;
+    margin-left:2%;
     width: 20%;
     height:100%;
    
@@ -20,7 +17,7 @@ align-items: center;
 
 p {
     margin-left:8%;
-    width: 40%;
+    width: 10%;
     height:100%;
     font-size: x-large;
     color: azure;
@@ -37,24 +34,25 @@ color: azure;
 
 export const CharacterCard = styled.div`
     border-radius: 6px;
-    background-color: #996633;
-    box-shadow: inset 0 0 1em #663300,0 0 1em #996633;
+    background-color: #757575;
+    box-shadow: inset 0 0 1em #E0E0E0,0 0 1em #01579B;
+
 
 text-align: center;
 font-size: larger;
-padding: 10px;
+padding: 15px;
 margin: 10px;
 width:  300px;
 &:hover{
     cursor:pointer;
-    background: linear-gradient(#663300, #996633, #999966);
+    background: linear-gradient(#616161, #00838F, #0D47A1);
 }
 
 `
-export const caracter = styled.h1`
-   margin-left:35%;
-   text-align:center;
-    width: 30%;
-    height:100%;
+// export const caracter = styled.h1`
+//    margin-left:35%;
+//    text-align:center;
+//     width: 30%;
+//     height:100%;
 
-`;
+// `;

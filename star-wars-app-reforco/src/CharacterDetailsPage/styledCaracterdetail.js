@@ -3,14 +3,19 @@
 import styled from "styled-components"
 
 export const FirstContainer2 = styled.div`
-align-items: center;
- padding: 4rem 2rem 2rem;
- background: linear-gradient(#663300, #996633, #999966);
- box-shadow: inset 0 0 1em black,0 0 1em black ;
+ background-image:url("https://image.api.playstation.com/vulcan/img/rnd/202105/1714/E5yFMXr7l18fVdXpdSWXp8Yi.png");
+
+img {
+ 
+   margin-left:40%;
+   width: 15%;
+   height:100%;
+  
+ }
 
 `;
 export const FirstTitle2 = styled.h1`
-text-align: center;
+text-align: justify;
 color: azure;
 `;
 
@@ -23,9 +28,10 @@ text-align: center;
 `;
 
 export const FirstDetail= styled.div`
-text-align: center;
-font-size: large;
+text-align: justify;
+font-size:large;
 padding: 4rem 2rem 2rem;
- background: linear-gradient(#663300, #996633, #999966);
- box-shadow: inset 0 0 1em black,0 0 1em black ;
+color:  white;
+box-shadow: inset 0 0 1em black,0 0 1em black ;
+
 `;
