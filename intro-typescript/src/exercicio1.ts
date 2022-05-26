@@ -21,3 +21,4 @@ function checaTriangulo(a:number, b:number, c:number):string {
       return "Isósceles";
     }
   }
+  console.log("estou aqui")

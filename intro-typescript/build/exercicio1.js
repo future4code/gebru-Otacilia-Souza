@@ -9,4 +9,5 @@ function checaTriangulo(a, b, c) {
         return "Isósceles";
     }
 }
+console.log("estou aqui");
 //# sourceMappingURL=exercicio1.js.map
