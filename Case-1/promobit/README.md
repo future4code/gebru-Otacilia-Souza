@@ -22,7 +22,7 @@ O PROMOBIT é um projeto front-end, que impõe o desafio de criar um site de ví
 
 
 ### vercel
-https://vercel.com/otaciliasouza/plataforma-de-filmes
+https://plataforma-de-filmes-otaciliasouza.vercel.app/
 
 ## Programas utilizados:
 - VSCode 
