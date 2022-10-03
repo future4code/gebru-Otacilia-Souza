@@ -8,6 +8,8 @@
    "removeComments": true,                           /* Disable emitting comments. */
     "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
     "esModuleInterop": true,
+    "esModuleInterop": true,
+
   }
 }
 
